@@ -1,0 +1,22 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:background="@color/jarvis_bg" android:layout_width="match_parent" android:layout_height="match_parent">
+<LinearLayout android:orientation="vertical" android:gravity="center_horizontal" android:padding="24dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+<TextView android:text="JARVIS" android:textSize="42sp" android:textStyle="bold" android:textColor="@color/jarvis_cyan" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+<TextView android:text="MOBILE INTELLIGENCE // PHONE-FIRST" android:textSize="12sp" android:textColor="#AAB7C4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingBottom="20dp"/>
+<TextView android:id="@+id/status" android:text="READY" android:textSize="18sp" android:textStyle="bold" android:gravity="center" android:textColor="#FFFFFF" android:padding="20dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+<Button android:id="@+id/start" android:text="START JARVIS" android:textSize="18sp" android:layout_width="match_parent" android:layout_height="60dp"/>
+<Button android:id="@+id/stop" android:text="STOP / STANDBY" android:layout_width="match_parent" android:layout_height="52dp"/>
+
+<TextView android:text="CONVERSATIONAL AI BRAIN" android:textColor="@color/jarvis_cyan" android:paddingTop="22dp" android:paddingBottom="8dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+<EditText android:id="@+id/groqKeyInput" android:hint="Enter Groq API Key (gsk_...)" android:textColor="#FFFFFF" android:textColorHint="#778899" android:background="#1E293B" android:padding="12dp" android:singleLine="true" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+<Button android:id="@+id/saveAiKey" android:text="SAVE &amp; TEST AI BRAIN" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp"/>
+
+<TextView android:text="PHONE CAPABILITIES" android:textColor="@color/jarvis_cyan" android:paddingTop="22dp" android:paddingBottom="8dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+<Button android:id="@+id/notifications" android:text="ENABLE NOTIFICATION MONITOR" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+<Button android:id="@+id/accessibility" android:text="ENABLE SCREEN READER + CONTROL" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+<Button android:id="@+id/screen" android:text="START SCREEN VISION / OCR" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+<Button android:id="@+id/camera" android:text="START CAMERA VISION" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+<Button android:id="@+id/overlay" android:text="ENABLE FLOATING JARVIS" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+<TextView android:text="PC LINK (OPTIONAL)" android:textColor="@color/jarvis_cyan" android:paddingTop="22dp" android:paddingBottom="8dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+<Button android:id="@+id/pcLink" android:text="PC BRIDGE — NOT REQUIRED" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+<TextView android:text="JARVIS can run on the phone without a PC. Android will show a foreground-service notification while voice listening is active. Some capabilities require explicit Android permissions." android:textColor="#AAB7C4" android:paddingTop="18dp" android:paddingBottom="20dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+</LinearLayout></ScrollView>

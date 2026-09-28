@@ -1,0 +1,1 @@
+<resources><style name="Theme.JARVISMobile" parent="android:style/Theme.Material.NoActionBar"><item name="android:fontFamily">sans</item><item name="android:colorAccent">@color/jarvis_cyan</item><item name="android:navigationBarColor">@color/jarvis_bg</item><item name="android:statusBarColor">@color/jarvis_bg</item></style></resources>

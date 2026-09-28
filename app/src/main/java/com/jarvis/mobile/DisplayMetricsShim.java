@@ -1,0 +1,1 @@
+package com.jarvis.mobile; import android.content.*; import android.util.*; public class DisplayMetricsShim {int w,h,dpi; DisplayMetricsShim(Context c){DisplayMetrics m=c.getResources().getDisplayMetrics();w=m.widthPixels;h=m.heightPixels;dpi=m.densityDpi;}}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="jarvis_bg">#071018</color>
+    <color name="jarvis_cyan">#4DEBFF</color>
+    <string name="accessibility_desc">Lets JARVIS assist with screen navigation and controlled gestures.</string>
+    <string name="app_name">JARVIS Mobile</string>
+    <string name="notification_listener_desc">Reads selected device notifications so JARVIS can summarize and report important events.</string>
+    <style name="Theme.JARVISMobile" parent="android:style/Theme.Material.NoActionBar"><item name="android:fontFamily">sans</item><item name="android:colorAccent">@color/jarvis_cyan</item><item name="android:navigationBarColor">@color/jarvis_bg</item><item name="android:statusBarColor">@color/jarvis_bg</item></style>
+</resources>

@@ -1,0 +1,21 @@
+R_DEF: Internal format may change without notice
+local
+color jarvis_bg
+color jarvis_cyan
+id accessibility
+id camera
+id groqKeyInput
+id notifications
+id overlay
+id pcLink
+id saveAiKey
+id screen
+id start
+id status
+id stop
+layout activity_main
+string accessibility_desc
+string app_name
+string notification_listener_desc
+style Theme.JARVISMobile
+xml accessibility_service_config

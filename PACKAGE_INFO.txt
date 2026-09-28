@@ -1,0 +1,18 @@
+JARVIS Command Center — upgraded HUD package
+
+Included:
+- redesigned JARVIS command-center HUD using public/assets/download.jpg
+- continuous listening; no wake word
+- no barge-in/interruption system
+- quiet/resume voice commands
+- Gmail/Google Calendar, Microsoft/Outlook, WhatsApp adapters
+- Google/Microsoft OAuth connect buttons
+- responsive desktop/mobile PWA UI
+- default Piper English voice model
+
+Intentionally excluded for security/portability:
+- .env (create your own from .env.example)
+- .runtime
+- node_modules (run npm install)
+- .piper-env (run setup-piper.ps1 if needed)
+- test.wav

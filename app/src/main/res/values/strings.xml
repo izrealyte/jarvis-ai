@@ -1,0 +1,1 @@
+<resources><string name="app_name">JARVIS Mobile</string><string name="notification_listener_desc">Reads selected device notifications so JARVIS can summarize and report important events.</string><string name="accessibility_desc">Lets JARVIS assist with screen navigation and controlled gestures.</string></resources>

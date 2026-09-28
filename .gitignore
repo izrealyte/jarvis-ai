@@ -1,0 +1,7 @@
+.env
+.runtime/
+.piper-env/
+voices/
+node_modules/
+.DS_Store
+*.log

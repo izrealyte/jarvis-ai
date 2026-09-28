@@ -1,0 +1,204 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.izrealyte.jarvismobile"
+4    android:versionCode="3"
+5    android:versionName="3.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+9        android:targetSdkVersion="35" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\kehin\OneDrive\Desktop\Jarvis Ai\app\src\main\AndroidManifest.xml:2:2-63
+11-->C:\Users\kehin\OneDrive\Desktop\Jarvis Ai\app\src\main\AndroidManifest.xml:2:19-61
+12    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES" />
+12-->C:\Users\kehin\OneDrive\Desktop\Jarvis Ai\app\src\main\AndroidManifest.xml:3:2-73
+12-->C:\Users\kehin\OneDrive\Desktop\Jarvis Ai\app\src\main\AndroidManifest.xml:3:19-71
+13    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+13-->C:\Users\kehin\OneDrive\Desktop\Jarvis Ai\app\src\main\AndroidManifest.xml:4:2-67
+13-->C:\Users\kehin\OneDrive\Desktop\Jarvis Ai\app\src\main\AndroidManifest.xml:4:19-65
+14    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+14-->C:\Users\kehin\OneDrive\Desktop\Jarvis Ai\app\src\main\AndroidManifest.xml:5:2-73
+14-->C:\Users\kehin\OneDrive\Desktop\Jarvis Ai\app\src\main\AndroidManifest.xml:5:19-71
+15    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MICROPHONE" />
+15-->C:\Users\kehin\OneDrive\Desktop\Jarvis Ai\app\src\main\AndroidManifest.xml:6:2-84
+15-->C:\Users\kehin\OneDrive\Desktop\Jarvis Ai\app\src\main\AndroidManifest.xml:6:19-82
+16    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+16-->C:\Users\kehin\OneDrive\Desktop\Jarvis Ai\app\src\main\AndroidManifest.xml:7:2-74
+16-->C:\Users\kehin\OneDrive\Desktop\Jarvis Ai\app\src\main\AndroidManifest.xml:7:19-72
+17    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+17-->C:\Users\kehin\OneDrive\Desktop\Jarvis Ai\app\src\main\AndroidManifest.xml:8:2-73
+17-->C:\Users\kehin\OneDrive\Desktop\Jarvis Ai\app\src\main\AndroidManifest.xml:8:19-71
+18    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MEDIA_PROJECTION" />
+18-->C:\Users\kehin\OneDrive\Desktop\Jarvis Ai\app\src\main\AndroidManifest.xml:9:2-90
+18-->C:\Users\kehin\OneDrive\Desktop\Jarvis Ai\app\src\main\AndroidManifest.xml:9:19-88
+19    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_CAMERA" />
+19-->C:\Users\kehin\OneDrive\Desktop\Jarvis Ai\app\src\main\AndroidManifest.xml:10:2-80
+19-->C:\Users\kehin\OneDrive\Desktop\Jarvis Ai\app\src\main\AndroidManifest.xml:10:19-78
+20    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_DATA_SYNC" />
+20-->C:\Users\kehin\OneDrive\Desktop\Jarvis Ai\app\src\main\AndroidManifest.xml:11:2-83
+20-->C:\Users\kehin\OneDrive\Desktop\Jarvis Ai\app\src\main\AndroidManifest.xml:11:19-81
+21    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+21-->C:\Users\kehin\OneDrive\Desktop\Jarvis Ai\app\src\main\AndroidManifest.xml:12:2-77
+21-->C:\Users\kehin\OneDrive\Desktop\Jarvis Ai\app\src\main\AndroidManifest.xml:12:19-75
+22    <uses-permission android:name="android.permission.CAMERA" />
+22-->C:\Users\kehin\OneDrive\Desktop\Jarvis Ai\app\src\main\AndroidManifest.xml:13:2-61
+22-->C:\Users\kehin\OneDrive\Desktop\Jarvis Ai\app\src\main\AndroidManifest.xml:13:19-59
+23
+24    <uses-feature
+24-->C:\Users\kehin\OneDrive\Desktop\Jarvis Ai\app\src\main\AndroidManifest.xml:14:2-81
+25        android:name="android.hardware.camera"
+25-->C:\Users\kehin\OneDrive\Desktop\Jarvis Ai\app\src\main\AndroidManifest.xml:14:16-54
+26        android:required="false" />
+26-->C:\Users\kehin\OneDrive\Desktop\Jarvis Ai\app\src\main\AndroidManifest.xml:14:55-79
+27
+28    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+28-->C:\Users\kehin\OneDrive\Desktop\Jarvis Ai\app\src\main\AndroidManifest.xml:15:2-71
+28-->C:\Users\kehin\OneDrive\Desktop\Jarvis Ai\app\src\main\AndroidManifest.xml:15:19-69
+29    <uses-permission android:name="android.permission.READ_CONTACTS" />
+29-->C:\Users\kehin\OneDrive\Desktop\Jarvis Ai\app\src\main\AndroidManifest.xml:16:2-68
+29-->C:\Users\kehin\OneDrive\Desktop\Jarvis Ai\app\src\main\AndroidManifest.xml:16:19-66
+30    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+30-->C:\Users\kehin\OneDrive\Desktop\Jarvis Ai\app\src\main\AndroidManifest.xml:17:2-69
+30-->C:\Users\kehin\OneDrive\Desktop\Jarvis Ai\app\src\main\AndroidManifest.xml:17:19-67
+31
+32    <application
+32-->C:\Users\kehin\OneDrive\Desktop\Jarvis Ai\app\src\main\AndroidManifest.xml:18:2-28:16
+33        android:allowBackup="false"
+33-->C:\Users\kehin\OneDrive\Desktop\Jarvis Ai\app\src\main\AndroidManifest.xml:18:87-114
+34        android:debuggable="true"
+35        android:extractNativeLibs="false"
+36        android:label="JARVIS Mobile"
+36-->C:\Users\kehin\OneDrive\Desktop\Jarvis Ai\app\src\main\AndroidManifest.xml:18:57-86
+37        android:supportsRtl="true"
+37-->C:\Users\kehin\OneDrive\Desktop\Jarvis Ai\app\src\main\AndroidManifest.xml:18:115-141
+38        android:testOnly="true"
+39        android:theme="@style/Theme.JARVISMobile" >
+39-->C:\Users\kehin\OneDrive\Desktop\Jarvis Ai\app\src\main\AndroidManifest.xml:18:15-56
+40        <activity
+40-->C:\Users\kehin\OneDrive\Desktop\Jarvis Ai\app\src\main\AndroidManifest.xml:19:3-218
+41            android:name="com.jarvis.mobile.MainActivity"
+41-->C:\Users\kehin\OneDrive\Desktop\Jarvis Ai\app\src\main\AndroidManifest.xml:19:13-41
+42            android:exported="true" >
+42-->C:\Users\kehin\OneDrive\Desktop\Jarvis Ai\app\src\main\AndroidManifest.xml:19:42-65
+43            <intent-filter>
+43-->C:\Users\kehin\OneDrive\Desktop\Jarvis Ai\app\src\main\AndroidManifest.xml:19:66-207
+44                <action android:name="android.intent.action.MAIN" />
+44-->C:\Users\kehin\OneDrive\Desktop\Jarvis Ai\app\src\main\AndroidManifest.xml:19:81-132
+44-->C:\Users\kehin\OneDrive\Desktop\Jarvis Ai\app\src\main\AndroidManifest.xml:19:89-130
+45
+46                <category android:name="android.intent.category.LAUNCHER" />
+46-->C:\Users\kehin\OneDrive\Desktop\Jarvis Ai\app\src\main\AndroidManifest.xml:19:132-191
+46-->C:\Users\kehin\OneDrive\Desktop\Jarvis Ai\app\src\main\AndroidManifest.xml:19:142-189
+47            </intent-filter>
+48        </activity>
+49
+50        <service
+50-->C:\Users\kehin\OneDrive\Desktop\Jarvis Ai\app\src\main\AndroidManifest.xml:20:3-314
+51            android:name="com.jarvis.mobile.JarvisNotificationListener"
+51-->C:\Users\kehin\OneDrive\Desktop\Jarvis Ai\app\src\main\AndroidManifest.xml:20:12-54
+52            android:exported="false"
+52-->C:\Users\kehin\OneDrive\Desktop\Jarvis Ai\app\src\main\AndroidManifest.xml:20:167-191
+53            android:label="JARVIS Notifications"
+53-->C:\Users\kehin\OneDrive\Desktop\Jarvis Ai\app\src\main\AndroidManifest.xml:20:55-91
+54            android:permission="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE" >
+54-->C:\Users\kehin\OneDrive\Desktop\Jarvis Ai\app\src\main\AndroidManifest.xml:20:92-166
+55            <intent-filter>
+55-->C:\Users\kehin\OneDrive\Desktop\Jarvis Ai\app\src\main\AndroidManifest.xml:20:192-304
+56                <action android:name="android.service.notification.NotificationListenerService" />
+56-->C:\Users\kehin\OneDrive\Desktop\Jarvis Ai\app\src\main\AndroidManifest.xml:20:207-288
+56-->C:\Users\kehin\OneDrive\Desktop\Jarvis Ai\app\src\main\AndroidManifest.xml:20:215-286
+57            </intent-filter>
+58        </service>
+59        <service
+59-->C:\Users\kehin\OneDrive\Desktop\Jarvis Ai\app\src\main\AndroidManifest.xml:21:3-422
+60            android:name="com.jarvis.mobile.JarvisAccessibilityService"
+60-->C:\Users\kehin\OneDrive\Desktop\Jarvis Ai\app\src\main\AndroidManifest.xml:21:12-54
+61            android:exported="false"
+61-->C:\Users\kehin\OneDrive\Desktop\Jarvis Ai\app\src\main\AndroidManifest.xml:21:173-197
+62            android:label="JARVIS Control &amp; Screen Reader"
+62-->C:\Users\kehin\OneDrive\Desktop\Jarvis Ai\app\src\main\AndroidManifest.xml:21:55-105
+63            android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE" >
+63-->C:\Users\kehin\OneDrive\Desktop\Jarvis Ai\app\src\main\AndroidManifest.xml:21:106-172
+64            <intent-filter>
+64-->C:\Users\kehin\OneDrive\Desktop\Jarvis Ai\app\src\main\AndroidManifest.xml:21:198-303
+65                <action android:name="android.accessibilityservice.AccessibilityService" />
+65-->C:\Users\kehin\OneDrive\Desktop\Jarvis Ai\app\src\main\AndroidManifest.xml:21:213-287
+65-->C:\Users\kehin\OneDrive\Desktop\Jarvis Ai\app\src\main\AndroidManifest.xml:21:221-285
+66            </intent-filter>
+67
+68            <meta-data
+68-->C:\Users\kehin\OneDrive\Desktop\Jarvis Ai\app\src\main\AndroidManifest.xml:21:303-412
+69                android:name="android.accessibilityservice"
+69-->C:\Users\kehin\OneDrive\Desktop\Jarvis Ai\app\src\main\AndroidManifest.xml:21:314-357
+70                android:resource="@xml/accessibility_service_config" />
+70-->C:\Users\kehin\OneDrive\Desktop\Jarvis Ai\app\src\main\AndroidManifest.xml:21:358-410
+71        </service>
+72        <service
+72-->C:\Users\kehin\OneDrive\Desktop\Jarvis Ai\app\src\main\AndroidManifest.xml:22:3-120
+73            android:name="com.jarvis.mobile.JarvisAssistantService"
+73-->C:\Users\kehin\OneDrive\Desktop\Jarvis Ai\app\src\main\AndroidManifest.xml:22:12-50
+74            android:exported="false"
+74-->C:\Users\kehin\OneDrive\Desktop\Jarvis Ai\app\src\main\AndroidManifest.xml:22:51-75
+75            android:foregroundServiceType="microphone" />
+75-->C:\Users\kehin\OneDrive\Desktop\Jarvis Ai\app\src\main\AndroidManifest.xml:22:76-118
+76        <service
+76-->C:\Users\kehin\OneDrive\Desktop\Jarvis Ai\app\src\main\AndroidManifest.xml:23:3-123
+77            android:name="com.jarvis.mobile.ScreenCaptureService"
+77-->C:\Users\kehin\OneDrive\Desktop\Jarvis Ai\app\src\main\AndroidManifest.xml:23:12-48
+78            android:exported="false"
+78-->C:\Users\kehin\OneDrive\Desktop\Jarvis Ai\app\src\main\AndroidManifest.xml:23:49-73
+79            android:foregroundServiceType="mediaProjection" />
+79-->C:\Users\kehin\OneDrive\Desktop\Jarvis Ai\app\src\main\AndroidManifest.xml:23:74-121
+80        <service
+80-->C:\Users\kehin\OneDrive\Desktop\Jarvis Ai\app\src\main\AndroidManifest.xml:24:3-107
+81            android:name="com.jarvis.mobile.CameraService"
+81-->C:\Users\kehin\OneDrive\Desktop\Jarvis Ai\app\src\main\AndroidManifest.xml:24:12-41
+82            android:exported="false"
+82-->C:\Users\kehin\OneDrive\Desktop\Jarvis Ai\app\src\main\AndroidManifest.xml:24:42-66
+83            android:foregroundServiceType="camera" />
+83-->C:\Users\kehin\OneDrive\Desktop\Jarvis Ai\app\src\main\AndroidManifest.xml:24:67-105
+84        <service
+84-->C:\Users\kehin\OneDrive\Desktop\Jarvis Ai\app\src\main\AndroidManifest.xml:25:3-109
+85            android:name="com.jarvis.mobile.CommandPoller"
+85-->C:\Users\kehin\OneDrive\Desktop\Jarvis Ai\app\src\main\AndroidManifest.xml:25:12-41
+86            android:exported="false"
+86-->C:\Users\kehin\OneDrive\Desktop\Jarvis Ai\app\src\main\AndroidManifest.xml:25:42-66
+87            android:foregroundServiceType="dataSync" />
+87-->C:\Users\kehin\OneDrive\Desktop\Jarvis Ai\app\src\main\AndroidManifest.xml:25:67-107
+88
+89        <receiver
+89-->C:\Users\kehin\OneDrive\Desktop\Jarvis Ai\app\src\main\AndroidManifest.xml:26:3-173
+90            android:name="com.jarvis.mobile.JarvisCallReceiver"
+90-->C:\Users\kehin\OneDrive\Desktop\Jarvis Ai\app\src\main\AndroidManifest.xml:26:13-47
+91            android:exported="false" >
+91-->C:\Users\kehin\OneDrive\Desktop\Jarvis Ai\app\src\main\AndroidManifest.xml:26:48-72
+92            <intent-filter>
+92-->C:\Users\kehin\OneDrive\Desktop\Jarvis Ai\app\src\main\AndroidManifest.xml:26:73-162
+93                <action android:name="android.intent.action.PHONE_STATE" />
+93-->C:\Users\kehin\OneDrive\Desktop\Jarvis Ai\app\src\main\AndroidManifest.xml:26:88-146
+93-->C:\Users\kehin\OneDrive\Desktop\Jarvis Ai\app\src\main\AndroidManifest.xml:26:96-144
+94            </intent-filter>
+95        </receiver>
+96        <receiver
+96-->C:\Users\kehin\OneDrive\Desktop\Jarvis Ai\app\src\main\AndroidManifest.xml:27:3-261
+97            android:name="com.jarvis.mobile.GestureReceiver"
+97-->C:\Users\kehin\OneDrive\Desktop\Jarvis Ai\app\src\main\AndroidManifest.xml:27:13-44
+98            android:exported="true" >
+98-->C:\Users\kehin\OneDrive\Desktop\Jarvis Ai\app\src\main\AndroidManifest.xml:27:45-68
+99            <intent-filter>
+99-->C:\Users\kehin\OneDrive\Desktop\Jarvis Ai\app\src\main\AndroidManifest.xml:27:69-250
+100                <action android:name="com.jarvis.mobile.GESTURE" />
+100-->C:\Users\kehin\OneDrive\Desktop\Jarvis Ai\app\src\main\AndroidManifest.xml:27:84-134
+100-->C:\Users\kehin\OneDrive\Desktop\Jarvis Ai\app\src\main\AndroidManifest.xml:27:92-132
+101                <action android:name="com.jarvis.mobile.GESTURE_WAVE" />
+101-->C:\Users\kehin\OneDrive\Desktop\Jarvis Ai\app\src\main\AndroidManifest.xml:27:134-189
+101-->C:\Users\kehin\OneDrive\Desktop\Jarvis Ai\app\src\main\AndroidManifest.xml:27:142-187
+102                <action android:name="com.airtouch.GESTURE" />
+102-->C:\Users\kehin\OneDrive\Desktop\Jarvis Ai\app\src\main\AndroidManifest.xml:27:189-234
+102-->C:\Users\kehin\OneDrive\Desktop\Jarvis Ai\app\src\main\AndroidManifest.xml:27:197-232
+103            </intent-filter>
+104        </receiver>
+105    </application>
+106
+107</manifest>

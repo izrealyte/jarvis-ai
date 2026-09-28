@@ -1,0 +1,9 @@
+{
+  "name": "JARVIS Command Center",
+  "short_name": "JARVIS",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#020611",
+  "theme_color": "#030814",
+  "description": "Voice-first JARVIS command center"
+}

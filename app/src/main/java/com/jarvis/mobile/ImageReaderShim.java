@@ -1,0 +1,4 @@
+package com.jarvis.mobile;
+import android.content.*; import android.graphics.PixelFormat; import android.media.*; import android.media.projection.*; import android.hardware.display.*; import android.os.*; import java.io.*;
+public class ImageReaderShim { final Context c; final MediaProjection p; ImageReader r; VirtualDisplay d; ImageReaderShim(Context c,MediaProjection p){this.c=c;this.p=p;} void start(){DisplayMetricsShim m=new DisplayMetricsShim(c);r=ImageReader.newInstance(m.w,m.h,PixelFormat.RGBA_8888,2);r.setOnImageAvailableListener(x->{try(ImageReader rr=x){android.media.Image im=rr.acquireLatestImage();if(im!=null)im.close();}catch(Exception ignored){}} ,new Handler(Looper.getMainLooper()));d=p.createVirtualDisplay("JARVIS",m.w,m.h,m.dpi,DisplayManager.VIRTUAL_DISPLAY_FLAG_AUTO_MIRROR,r.getSurface(),null,null);} void stop(){if(d!=null)d.release();if(r!=null)r.close();}
+}

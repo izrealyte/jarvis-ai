@@ -1,0 +1,60 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.jarvis.mobile.app-debug-4:/values_values.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\kehin\\OneDrive\\Desktop\\Jarvis Ai\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "0,0,0",
+                        "startColumns": "196,11,57",
+                        "startOffsets": "196,11,57",
+                        "endColumns": "305,57,196",
+                        "endOffsets": "305,57,196"
+                    },
+                    "to": {
+                        "startLines": "4,5,6",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "145,259,310",
+                        "endColumns": "113,50,143",
+                        "endOffsets": "254,305,449"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\kehin\\OneDrive\\Desktop\\Jarvis Ai\\app\\src\\main\\res\\values\\colors.xml",
+                    "from": {
+                        "startLines": "0,0",
+                        "startColumns": "11,50",
+                        "startOffsets": "11,50",
+                        "endColumns": "50,91",
+                        "endOffsets": "50,91"
+                    },
+                    "to": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,99",
+                        "endColumns": "43,45",
+                        "endOffsets": "94,140"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\kehin\\OneDrive\\Desktop\\Jarvis Ai\\app\\src\\main\\res\\values\\themes.xml",
+                    "from": {
+                        "startLines": "0",
+                        "startColumns": "11",
+                        "startOffsets": "11",
+                        "endColumns": "325",
+                        "endOffsets": "325"
+                    },
+                    "to": {
+                        "startLines": "7",
+                        "startColumns": "4",
+                        "startOffsets": "454",
+                        "endColumns": "318",
+                        "endOffsets": "768"
+                    }
+                }
+            ]
+        }
+    ]
+}
